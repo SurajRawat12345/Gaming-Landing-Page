@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0px;
+    background: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.80),rgba(0,0,0,0.70)),url(background.png);
+}
+/* --------------FIRST NAV BAR --------------*/
+.first-navbar{
+    background-color: black;
+    padding-top: 15px;
+    display:flex;
+    justify-content: space-between;
+}
+.contact-bar li,.info-bar li{
+    display: inline-block;
+}
+.contact-bar li a,.info-bar li a{
+    text-decoration: none;
+    margin: 15px 10px;
+    color: grey;
+    font-weight: bolder;
+    text-align: center;
+}
+li a:hover{
+    color: skyblue;
+}
+/* ---------------- Menu Bar ----------------*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 5px solid crimson;
+    border-radius: 40px;
+    background-color: rgba(11, 11, 77, 0.223);
+}
+.logo{
+    width: 5%;
+    padding: 10px 0px;
+}
+.header .menu-bar{
+    list-style: none;
+}
+.header .menu-bar li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+}
+.header .menu-bar li a{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 15px 10px;
+    font-weight: bolder;
+}
+.header .menu-bar li a:hover{
+    color: crimson;
+    border-bottom: 5px solid crimson;
+    border-left: 5px solid crimson;
+    border-radius: 10px;
+    box-shadow: 2px -2px 0px 2px white;
+}
+
+button.first{
+    width:150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: rgb(255, 0, 72);
+}
+button:hover{
+    color: white;
+    background-color: black;
+    border: 3px solid red; 
+}
+/* -----------------MAIN SCREEN---------------*/
+.main{
+    display: flex;
+    margin: 20px 20px 0px 20px;
+    justify-content: space-evenly;
+    line-height: 40px;
+}
+.content{
+    padding: 40px 30px;
+}
+.content h2{
+    font-size: 45px;
+}
+.content p{
+    color: skyblue;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+p.A{
+    color: red;
+}
+button.second{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    background-color: crimson;
+    padding: 15px;
+    margin-top: -50px;
+    border-radius: 50px;
+}
+.second:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+}
+.back{
+    padding: 20px;
+    width: 35%;
+    height: 55%;
+}
+/* -----------------Main-Games-----------------*/
+h2.heading{
+    margin-top: -28px;
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+    padding:20px;
+}
+.main2{
+    box-sizing: border-box;
+    display:flex;
+    margin: 20px 20px 0px 20px;
+    justify-items: center;
+    font-weight: bold;
+
+}
+.main2 .game{
+    width:30%;
+    margin: 10px;
+    background-color: black;
+}
+img.games{
+    width: 100%;
+    height: 50%;
+}
+p.about{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(69, 190, 238);
+}
+span.heading{
+    color: crimson;
+}
+button.third,button.fourth{
+    background-color: red;
+    border-radius: 10px;
+    width:150px;
+    font-size: 25px;
+    margin: 5px;
+}
