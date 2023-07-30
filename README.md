@@ -11,7 +11,7 @@ Landing Page for Gaming platform.
 ![Gaming-gif](https://github.com/SurajRawat12345/Gaming-Landing-Page/assets/115080037/f689aed4-9132-4131-92fc-ce7ef2ef0e9c)
 
 # Author
-<img src="https://img.shields.io/badge/Author-Suraj_Rawat-blue">
+<img src="https://img.shields.io/badge/Author-Suraj_Rawat-blue?labelColor=%23E74C3C">
 
 <img src="https://img.shields.io/badge/LinkedIn-crimson"> : https://www.linkedin.com/in/suraj-rawat123/
 
